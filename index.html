@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Hsoub Weather App</title>
+    <link href="https://fonts.googleapis.com/css?family=Almarai&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="./css/style.css">   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>        
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>       
+    <script src="./js/weather.js"></script> 
+</head>
+<body>
+<div class="container" style="height:650px;">
+    <div class="row" >
+        <div class="col-md-12" style="margin-bottom:10px;">
+            <h2 class="text-center ">اعرف حالة الطقس لمدينتك </h2>
+            <span id="error" class="text-center"></span>
+        </div>
+        
+        <div class=" form-group form-inline" id="cityDiv">
+           
+            <input type="text" name="city" id="city" class="form-control" placeholder="أدخل الإسم بالإنجليزية" >
+            <button id="submitCity" class="btn"> ابحث عن المدينة </button>
+        </div>
+
+    </div>  
+    <div id="showWeather">
+        
+    </div>
+</div>   
+       
+</body>
+</html>
