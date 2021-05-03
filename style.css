@@ -1,0 +1,60 @@
+body{
+    font-family: 'Almarai', sans-serif;
+    background-color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    margin-right:3% ;
+} 
+
+
+#cityDiv{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+input[type='text']{
+    height: 40px;
+    font-size: 20px;
+}
+
+#submitCity{
+    height: 40px;
+    font-weight: bold;
+}
+
+#errorCity{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+
+#showWeather{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(153, 153, 153);
+    color: white;
+    border-radius: 25px;
+}
+
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
